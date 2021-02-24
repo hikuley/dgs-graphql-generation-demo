@@ -1,0 +1,13 @@
+type Query {
+    shows: [Show]
+    actors: [Actor]
+}
+
+type Show {
+    title: String
+    actors: [Actor]
+}
+
+type Actor {
+    name: String
+}
