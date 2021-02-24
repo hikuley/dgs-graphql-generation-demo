@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @DgsComponent
-public class ShowsDataFetcher {
+public class DataFetcher {
 
     @DgsData(parentType = "Query", field = "shows")
     public List<Show> shows() {
